@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, PT_Sans } from "next/font/google";
 import "./globals.css";
-
+import { ThemeProvider } from "@/context/ThemeProvider";
 const inter = Inter({ subsets: ["latin"] });
+const pt = PT_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <ThemeProvider>
+        <body className={` bg-slate-900 ${pt.className}`}>{children}</body>
+      </ThemeProvider>
     </html>
   );
 }
