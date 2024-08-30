@@ -63,7 +63,7 @@ Feel free to send your queries or messages in the box below, and let’s get sta
               value={formData.subject}
               onChange={handleChange}
               className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
-              placeholder="Let us know how we can help you"
+              placeholder="Subject"
               required
             />
           </div>
@@ -77,13 +77,12 @@ Feel free to send your queries or messages in the box below, and let’s get sta
               value={formData.message}
               onChange={handleChange}
               className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
-              placeholder="Leave a comment..."
+              placeholder="What's on your mind..."
             ></textarea>
           </div>
           <button
             type="submit"
-            className=" text-white p-2 bg-blue-700 rounded-md hover:bg-blue-800 "
-          >
+            className=" text-white p-2 bg-blue-700 rounded-md hover:bg-blue-800 ">
             Send message
           </button>
         </form>
