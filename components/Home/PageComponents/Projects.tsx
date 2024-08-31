@@ -43,13 +43,14 @@ const projectData = [
     imageUrl: agri,
     demoLink: "#",
     repoLink: "#"
-  }
+  },
+  
 ];
 
 // Display the project cards
 const ProjectsSection = () => {
   return (
-    <div className="border-2 border-slate-500 m-10 mt-28 rounded-2xl" >
+    <div className="border-2 border-slate-500 m-5 mt-28 rounded-2xl" >
       <h2 className="font-bold text-3xl relative top-2 text-center ">Projects</h2>
       <section className="flex justify-center">
         <div className="flex flex-wrap gap-0 sm:gap-10  ">

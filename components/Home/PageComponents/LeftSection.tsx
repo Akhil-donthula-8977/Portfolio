@@ -23,7 +23,7 @@ const LeftSection = () => {
           A passionate 4th-year graduate from Vellore Institute of Technology, developer, and problem solver with expertise in the MERN stack, Next.js, AWS, and both SQL and NoSQL databases. Experienced in building scalable and efficient web applications, integrating cloud services, and optimizing backend processes. Adept at delivering full-stack solutions with a focus on performance, security, and seamless user experiences. Strong ability to work collaboratively in agile environments, with a deep understanding of modern development practices and tools.
         </p>
       </Reveal>
-      <div className='flex justify-center w-full'>
+      <div className='flex  w-full'>
       <RevealFromLeft>
         <DockDemo></DockDemo>
       </RevealFromLeft>

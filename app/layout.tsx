@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 const pt = PT_Sans({ subsets: ["latin"], weight: ["400", "700"] });
 
 export const metadata: Metadata = {
-  title: "Home",
+  title: "Akhil's portfolio",
   description: "portfolio",
 };
 

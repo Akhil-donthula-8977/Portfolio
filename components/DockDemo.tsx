@@ -9,7 +9,7 @@ export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export function DockDemo() {
   return (
-    <div className="relative  ">
+    <div className="relative bottom-3 ">
       <Dock direction="middle" distance={100000} magnification={100} >
         <DockIcon>
           <Link href={"https://github.com/Akhil-donthula-8977"}>
